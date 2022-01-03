@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?referralapp.net/ [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]

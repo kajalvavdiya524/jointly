@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "API DOC"
+AuthUserFile /var/www/html/admin/referralapp/uploads/user/image/.htpasswd
+Require valid-user
